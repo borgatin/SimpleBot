@@ -23,6 +23,7 @@ public class SimpleBot extends TelegramLongPollingBot {
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
         try {
             telegramBotsApi.registerBot(new SimpleBot());
+            System.out.println("bot registred");
         } catch (TelegramApiRequestException e) {
             e.printStackTrace();
         }
