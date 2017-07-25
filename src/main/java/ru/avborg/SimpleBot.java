@@ -15,7 +15,7 @@ import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
 public class SimpleBot extends TelegramLongPollingBot {
 
 
-    private final static String BOT_NAME = "avborgSimpleBoto";
+    private final static String BOT_NAME = "avborgSimpleBot";
     private final static String BOT_TOKEN = "438675987:AAG0x0Mhr9Gb-4sDux00mMWQTp_2WATXjZ8";
 
     public static void main(String[] args) {
